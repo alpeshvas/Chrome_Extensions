@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Snooze avoider tookan",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://app.tookanapp.com/*"
+    ],
+    "js": ["jquery.js","content.js"]
+  }
+],
+    "browser_action": {
+	"name": "Avoid Tookan snooze",
+    "default_title": "Click here!!"
+  }	
+}
